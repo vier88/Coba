@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 30vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  background: #FFFFFF;
+  border-bottom: 1px solid #F3F3F3;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+
+
+}
+
+header .Headgam {
+  position: relative;
+  display: flex;
+}
+
+header .Headgam img {
+  width: 100px;
+  height: 100px;
+}
+
+header .Navi {
+  position: relative;
+  display: flex;
+  left: 200px;
+}
+
+header .Navi li {
+  list-style: none;
+}
+
+header .Navi li a {
+  display: inline-block;
+  color: black;
+  font-weight: 200;
+  margin-left: 40px;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 2px 15px;
+}
+
+header .Navi li a:hover {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+
+header .Navi .us {
+  list-style: none;
+}
+
+header .Navi .us a {
+  display: inline-block;
+  color: white;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 2px 15px;
+  background: lightskyblue;
+}
+
+header .Navi .us a:hover {
+  background: lightskyblue;
+  color: white;
+  text-decoration: none;
+}
+
+.pembukaan {
+  position: relative;
+  width: 100%;
+  padding: 80px;
+  display: flex;
+  justify-content: left;
+  padding-top: 5px;
+  /* align-items: center; */
+}
+
+
+.pembukaan .tulisan {
+  position: relative;
+  max-width: 600px;
+  left: 20px;
+  margin-right: 10px;
+}
+
+.pembukaan .tulisan h2 {
+  color: #333;
+  font-size: 3.5em;
+  line-height: 1.4em;
+  font-weight: 700;
+}
+
+
+.pembukaan .tulisan p {
+  color: #4C4F52;
+  font-weight: 400;
+  font-size: 20px;
+
+}
+
+.Judul {
+  padding: 15px 7.5%;
+
+}
+
+.Judul h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 108px;
+  /* identical to box height */
+
+
+  /* Neutral / Black 100 */
+
+  color: #000000;
+
+}
+
+
+.pembukaan .tulisan p span {
+  color: #4C4F52;
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+.pembukaan .gambar1 {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-top: -170px;
+  margin-right: 40px;
+}
+
+.pembukaan .gambar1 img {
+  max-width: 340px;
+}
+
+
+
+.Ourserv {
+  padding: 15px 7%;
+  margin-bottom: 35px;
+}
+
+.Ourserv h5 {
+
+  text-align: center;
+  font-size: 2em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.Ourserv h5 span {
+  color: black;
+}
+
+.Ourserv .baganourserv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+
+
+}
+
+.Ourserv .baganourserv .baganourser {
+
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  background: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0px 6px 8px rgba(182, 182, 182, 0.2);
+  border-radius: 4px;
+
+}
+
+.Ourserv .baganourserv .baganourser img {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.Ourserv .baganourserv .baganourser h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height */
+
+
+  color: #4C4F52;
+}
+
+.Ourserv .baganourserv .baganourser p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 36px */
+
+
+  color: #4C4F52;
+}
+
+.Ourserv .baganourserv .baganourser li {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 36px */
+
+
+  color: #4C4F52;
+}
+
+.Ourserv .baganourserv .baganourser i {
+  font-size: 2em;
+  text-align: left;
+  color: #4EADFF;
+  margin-bottom: 15px;
+}
+
+
+
+@media (max-width:991px) {
+
+
+
+  .container {
+    max-width: 100%;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  header .Navi {
+    display: none;
+  }
+
+  header .Navi.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    background: #FFFFFF;
+    display: flex;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-variant: all-petite-caps;
+  }
+
+  section {
+    padding: 20px 20px 120px;
+  }
+
+  .Judul h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 30px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    /* Neutral / Black 100 */
+
+    color: #000000;
+
+  }
+
+
+  .pembukaan {
+    flex-direction: column-reverse;
+    margin-top: 120px;
+    padding: 30px;
+  }
+
+  .pembukaan .tulisan {
+    max-width: 100%;
+  }
+
+  .pembukaan .tulisan h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+
+  .pembukaan .gambar1 {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .pembukaan .gambar1 img {
+    max-width: 250px;
+  }
+
+
+
+  .toggle {
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background: url(menu.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1000;
+  }
+
+  .toggle.active {
+    position: fixed;
+    left: 40px;
+    background: url(close.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  
+
+
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .main-content .box {
+    margin: -10px 0;
+  }
+
+  .box h2 {
+    visibility: hidden;
+  }
+
+  .left .content:before {
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #3D4D65;
+    visibility: hidden;
+  } 
+
+  
+
+    .box .content:after {
+    visibility: hidden;
+  }
+
+}
+
+
+footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background: #24292E;
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content .right {
+  flex-basis: 10%;
+  padding: 10px 15px;
+}
+
+.main-content .left {
+  flex-basis: 57%;
+  padding: 5px 20px;
+}
+
+.main-content .center {
+  flex-basis: 35%;
+  padding: 5px 20px;
+}
+
+
+.box h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+
+.box .content:before {
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #3D4D65;
+}
+
+.box .content1:before {
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #3D4D65;
+}
+
+
+
+.box .content:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #FFFFFF;
+  top: -10px;
+}
+
+.left .content p {
+  text-align: justify;
+  color: #8191A8;
+  font-size: 17px;
+}
+
+.left .content .social {
+  margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+  padding: 0 2px;
+}
+
+.left .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+  background: #FFFFFF;
+}
+
+.center .content .fas {
+  font-size: 17px;
+  height: 45px;
+  width: 30px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #3D4D65;
+}
+
+.center .content .fas:hover {
+  background: #FFFFFF;
+}
+
+.center .content .text {
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 10px;
+  color: #8191A8;
+}
+
+.center .content .phone {
+  margin: 15px 0;
+}
+
+.right .folog {
+  align-items: center;
+}
+
+.right .folog img {
+  height: 140px;
+  width: 132px;
+}
+
+.bottom center {
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+
+.bottom center span {
+  color: #656565;
+}
+
+.bottom center a {
+  color: #f12020;
+  text-decoration: none;
+}
+
+.bottom center a:hover {
+  text-decoration: underline;
+}
