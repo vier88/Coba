@@ -16,11 +16,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: linear-gradient(rgba(61,45,82,1), rgba(255,255,255,0.2)),
+    url(consul1.jpg);
 
   background-size: cover;
   opacity: 1;
-  background: linear-gradient(0deg, #4EADFF, #4EADFF), url(consul1.jpg);
-  background-blend-mode: multiply, normal;
+  
 
 
 }
@@ -108,6 +109,7 @@ header .Navi .us a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 25px;
 }
 
 .pembukaan .tulisan {
@@ -150,7 +152,7 @@ header .Navi .us a:hover {
   text-align: justify;
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 21px;
   line-height: 150%;
 
@@ -383,12 +385,12 @@ header .Navi .us a:hover {
 
   .Bag5 .Word h6 {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 90px;
   }
 
   .Bag5 .Word p {
-    font-size: 22px;
+    font-size: 17px;
   }
 
 
@@ -732,13 +734,13 @@ footer {
 
 .testRow .testItem {
   width: 100%;
-  height: 100%;
+  height: 105%;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  bottom: -10px;
+  bottom: -30px;
 }
 
 .testRow .testItem:not(.active) {
@@ -748,7 +750,7 @@ footer {
 
 .testRow .testItem img {
   width: 120px;
-  height: 120px;
+  height: 90px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 5px;
@@ -777,7 +779,7 @@ footer {
 
 .contents-wraper .indicators {
   position: absolute;
-  bottom: -15px;
+  bottom: -40px;
   left: 50%;
   transform: translateX(-50%);
   padding: 5px;

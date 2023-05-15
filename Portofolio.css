@@ -10,7 +10,7 @@
 section {
   position: relative;
   width: 100%;
-  min-height: 20vh;
+  min-height: 17vh;
   padding: 75px;
   background: #fff;
   text-align: center;
@@ -239,7 +239,7 @@ button#prev {
   .Judul {
     text-align: left;
     position: relative;
-    left: 33px;
+    padding-left: 38px;
   }
 
   section {

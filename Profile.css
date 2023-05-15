@@ -10,13 +10,13 @@
 section {
   position: relative;
   width: 100%;
-  min-height: 30vh;
+  min-height: 20vh;
   padding: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #fff;
-  margin-bottom: 20px;
+  
 }
 
 header {
@@ -268,7 +268,8 @@ header .Navi .us a:hover {
   }
 
   header {
-    padding: 20px;
+    padding: 0px 7%;
+    padding-bottom: 3px;
   }
 
   header .Navi {
